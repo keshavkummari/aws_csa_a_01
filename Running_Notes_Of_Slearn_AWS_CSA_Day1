@@ -1,0 +1,112 @@
+
+Pre-req:
+
+1. Laptop/Desktop :
+	1. Windows
+	2. MacOS
+	3. Linux
+
+2. Text Editors : 
+	1. Notepad++ (https://notepad-plus-plus.org/download/v7.6.3.html)
+	2. Sublime   (https://www.sublimetext.com/3)
+	3. ATOM      (https://atom.io/)
+
+3. CLI Tools :
+	1. Windows :
+		1. CMD
+		2. PowerShell
+		3. gitbash (1. git, 2. unix/linux, & 3. SSH to Unix/Linux Machines)
+			(https://git-scm.com/downloads)
+		4. Putty  (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+		5. Puttygen (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+		6. cmder (1. git, 2. unix/linux, & 3. SSH to Unix/Linux Machines)
+			(https://github.com/cmderdev/cmder/releases/download/v1.3.11/cmder.zip)
+
+	2. MacOS :
+		1. Terminal(gitbash)
+			(https://github.com/cmderdev/cmder/releases/download/v1.3.11/cmder.zip)
+
+	3. Linux :
+		1. Terminal(gitbash) 
+			(https://github.com/cmderdev/cmder/releases/download/v1.3.11/cmder.zip)
+
+4. Domain Registration :
+	1. AWS
+	2. Godaddy(www.keshavkummari.com) | 300 inr to 1000 inr 
+		(godaddy.com)
+	3. google
+
+5. SCM(VCS) Signup/Register Account :
+	1. github :
+		(github.com)
+	2. Gitlab
+	3. Bitbucket
+
+6. Architecture Design :
+	1. cloudcraft
+		(https://cloudcraft.co/)
+
+7. AWS Cloud Personal Account : 
+	(aws.amazon.com)
+
+
+8. Operating System Administration :
+	1. Windows
+	2. MacOS
+	3. Linux ()
+	4. Unix 
+
+Types :  1. GUI & 2. CUI/CLI
+
+
+AWS Cloud :
+
+https://console.aws.amazon.com/console/home?nc2=h_ct&src=header-signin&region=us-east-1
+
+
+AWS Account Access Types:
+	
+	1. AWS Management Console :
+
+		1. Root Account :
+
+			1. Browser : 
+
+				1. AWS URL :  https://aws.amazon.com
+				2. UserName : onlinecataor@gmail.com
+				3. PassWord : xxxxxx
+
+		2. Normal User/IAM User :
+			
+			1. Browser : 
+
+				1. Customized AWS URL : https://slearn-dev.signin.aws.amazon.com/console
+				2. account Id/Name : slearn-dev
+				3. UserName : keshav.kummari
+				4. PassWord : xxxxxxx	
+
+	Example : 
+
+	Users with AWS Management Console access can sign-in at: 
+
+		1. Customized AWS URL :  https://kummari.signin.aws.amazon.com/console
+		2. account Id/Name : 
+		3. UserName : 
+		4. PassWord : 
+
+
+	2. Programmatic access
+		Enables an access key ID and secret access key for the 
+			1. AWS API, (python, pip , # pip install awscli )
+			2. CLI, 
+			3. SDK, and 
+			4. other development tools.
+
+Example of Programmatic access way of login to AWS cloud :
+
+	Access key ID     : 
+	Secret access key : 
+
+
+
+

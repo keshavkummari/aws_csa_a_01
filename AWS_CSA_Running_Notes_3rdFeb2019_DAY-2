@@ -1,0 +1,84 @@
+
+Region : N.Virgnia
+
+Region Code : us-east-1
+
+Default VPC : vpc-75b7490f 
+
+Availability Zone Status:
+
+us-east-1a:
+
+us-east-1b:
+
+us-east-1c:
+
+us-east-1d:
+
+us-east-1e:
+
+us-east-1f:
+
+
+Launch a Instance(Linux/Windows):
+
+1. Choose AMI2 :
+
+2. Choose Instance Type :
+
+3. Configure Instance :
+
+4. Add Storage :
+
+5. Add Tags :
+
+6. Configure Security Group :
+
+7. Review :
+
+
+Launch a Instance Linux Server From CLI :
+
+STEP-0: 
+	1. IAM User    : kkummari
+	2. Access Type : Programatic
+	3. Policy Type : Administrator
+	4. Go to Windows/MacOS : Install Python, Pip & AWSCLI
+		1. Configure the User : kkummari
+			AccessKeyID   : 
+			SecreatAKeyID : 
+			Region 		  : us-east-1
+			OutPut Format : json  or text
+
+1. Choose AMI2 :
+
+2. Choose Instance Type :
+
+3. Configure Instance :
+
+4. Add Storage :
+
+5. Add Tags :
+
+6. Configure Security Group :
+
+7. Review :
+
+
+Launch a Instance Windows Server From CLI :
+
+1. Choose AMI2 :
+
+2. Choose Instance Type :
+
+3. Configure Instance :
+
+4. Add Storage :
+
+5. Add Tags :
+
+6. Configure Security Group :
+
+7. Review :
+
+
