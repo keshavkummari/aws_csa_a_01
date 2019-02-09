@@ -9,6 +9,7 @@ Cloud - AWS
 		- Windows Operating System 
 			- WebServer i.e. IIS
 
+
 		- Linux Operating System 
 			- WebServer i.e. Apache Httpd 
 
@@ -24,17 +25,78 @@ Cloud - AWS
 		- Ajax
 		- Nodejs
 		- .net
+
+
     
     3. Route 53
     	- Hosted Zones
     		- SOA
     		- NS (4 Name Servers)
+    		
+    		ns-525.awsdns-01.net
+			ns-1052.awsdns-03.org
+			ns-236.awsdns-29.com
+			ns-1766.awsdns-28.co.uk
+
     	- A Record -------> EC2(Windows/Linux)
 
     4. Domain Name 
-    	- ckk.cloud (godaddy)
+    	- keshavkummari.com (godaddy)
     		- NS (4 Name Servers of Website hosting)
 
     5. Test the Website Hosting
     	- Open a browser and check with Domain Name and IPaddress EC2 instance
-    	
+
+    		1. Domain Name : keshavkummari.com >> Public DNS(13) >> godaddy - NS (4 NS Records )
+
+    		ns-525.awsdns-01.net      >>>>>>>> A Record ---- EC2(ipaddress)
+			ns-1052.awsdns-03.org	  >>>>>>>> A Record ---- EC2(ipaddress)
+			ns-236.awsdns-29.com      >>>>>>>> A Record ---- EC2(ipaddress)
+			ns-1766.awsdns-28.co.uk   >>>>>>>> A Record ---- EC2(ipaddress)
+
+
+
+Bootstrap :
+
+1. During the Launch of Operating System, host a website:
+
+
+#!/bin/bash
+
+echo "Launch a Website Using Bootstrap" >> /tmp/bootstrap.log
+
+yum install httpd -y >> /tmp/bootstrap.log
+
+rpmquery httpd >> /tmp/bootstrap.log
+
+ls -lrt /etc/yum.repos.d/ >> /tmp/bootstrap.log
+
+ls -lrt /var/www >> /tmp/bootstrap.log
+
+grep --color -i 'Apache' /etc/passwd /etc/shadow /etc/group /etc/gshadow >> /tmp/bootstrap.log
+
+service httpd status >> /tmp/bootstrap.log
+
+service httpd start >> /tmp/bootstrap.log
+
+service httpd status >> /tmp/bootstrap.log
+
+yum install vim curl wget unzip elinks -y >> /tmp/bootstrap.log
+
+curl localhost >> /tmp/bootstrap.log
+
+echo "Application/Website is up!" >> /tmp/bootstrap.log
+
+
+
+#---------------------------------------------------#
+Windows :
+
+STEP-1 : Go to Windows Server and execute below steps:
+
+Computer Management >> Services And Applications >> 
+
+IIS(Internet Information Services Manager)
+
+STEP-2 : Click on Add roles and featues & configure IIS server
+#---------------------------------------------------#
