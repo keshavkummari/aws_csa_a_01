@@ -1,0 +1,40 @@
+
+Launch a Website / Hosting a Website on Cloud :
+
+Cloud - AWS 
+
+1. Compute 
+	
+	1. EC2 
+		- Windows Operating System 
+			- WebServer i.e. IIS
+
+		- Linux Operating System 
+			- WebServer i.e. Apache Httpd 
+
+	2. Code :
+		- Java
+		- Php
+		- C
+		- Perl
+		- Python
+		- HTML
+		- CSS
+		- JavaScript
+		- Ajax
+		- Nodejs
+		- .net
+    
+    3. Route 53
+    	- Hosted Zones
+    		- SOA
+    		- NS (4 Name Servers)
+    	- A Record -------> EC2(Windows/Linux)
+
+    4. Domain Name 
+    	- ckk.cloud (godaddy)
+    		- NS (4 Name Servers of Website hosting)
+
+    5. Test the Website Hosting
+    	- Open a browser and check with Domain Name and IPaddress EC2 instance
+    	
